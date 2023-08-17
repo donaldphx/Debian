@@ -2,6 +2,12 @@
 
 ## sudo and root ###
 
+The **whereis** function is used to find the path of a file or an app.
+
+``` BASH
+whereis sudo
+```
+
 ### Enable sudo for user and disable root account ###
 
 When you enable **sudo**, always disable the **root** account. You should never have both enabled, as it doubles the surface for malicious software or actors to compromise the system.
