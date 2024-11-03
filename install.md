@@ -73,3 +73,23 @@ sudo apt-get remove --purge
 ````
 
 The command **remove** only does not delete the setting files in **/etc**
+
+
+
+
+Installing RPM In SUSE Linux (SLES)
+
+Simply use the following syntax to install rpm file as root user:
+zypper install file.rpm
+
+OR
+rpm -ivh file.rpm
+
+OR yast method still works on an older version of SLES but it is now DEPRECATED on the latest version:
+yast -i file.rpm
+
+OR
+yast2 -i file.rpm
+
+So what happens when you use the yast2 method? For example, here is how I try to install atop*.rpm using the yast2 method:
+yast2 -i atop-2.8.1-bp155.1.6.x86_64.rpm
